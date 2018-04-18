@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/create_job/" method="post">
+    <label >任务名称 </label>
+    <input id="job_name1" type="text" name="job_name" placeholder="任务名称"><br>
+    <label >git&nbsp;地&nbsp;址&nbsp; </label>
+    <input id="git_add" type="text" name="git_url" value=""><br>
+    <label >触发器 </label>
+    <input id="triggers_spec" type="text" name="triggers_spec" value=""><br>
+    <input type="submit" value="OK">
+    {% csrf_token %}
+</form>
+    <a href="/homepage/">回到首页</a><br>
+</body>
+</html>

@@ -1,0 +1,14 @@
+certifi==2018.1.18
+chardet==3.0.4
+configparser==3.5.0
+Django==1.11.11
+idna==2.6
+jenkinsapi==0.3.6
+multi-key-dict==2.0.3
+pbr==4.0.1
+PyMySQL==0.8.0
+python-jenkins==0.4.16
+pytz==2018.4
+requests==2.18.4
+six==1.11.0
+urllib3==1.22
